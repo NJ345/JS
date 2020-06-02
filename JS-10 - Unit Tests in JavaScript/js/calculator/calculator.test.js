@@ -15,7 +15,7 @@ test('subtract 5 - 4 to equal 1', () => {
 test('subtract -5 - -10 to equal 5', () => {
   expect(calculator.subtract(-5, -10)).toBe(5);
 });
-
+// Implement 2 unit tests for the *divide* function.
 test('divide 10 / 2 to equal 5',() => {
   expect(calculator.divide(10,2)).toBe(5);
 });
@@ -24,7 +24,7 @@ test('divide 14 / 2 to equal 7',() => {
   expect(calculator.divide(14,2)).toBe(7);
 });
 
-
+//Implement 2 unit tests for the *multiply* function
 test('multiply 6 * 2 to equal 12',() => {
   expect(calculator.multiply(6,2)).toBe(12);
 });
